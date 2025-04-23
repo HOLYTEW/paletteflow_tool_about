@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 // HTML Routes
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../views/tool.html'));
+    res.redirect('https://paletteflow-home.vercel.app/');
 });
 
 app.get('/tool', (req, res) => {
