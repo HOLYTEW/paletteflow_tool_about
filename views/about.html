@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PaletteFlow</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="icon" href="assets/PFLogo.png" sizes="any" />
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="/"><img src="assets/PaletteFlow.png" width="190" /></a>
+        </div>
+
+        <ul class="navList">
+            <li class="navItem"><a href="/tool">เครื่องมือ</a></li>
+            <li class="i">I</li>
+            <li class="navItem"><a href="/about">เกี่ยวกับเรา</a></li>
+        </ul>
+
+        <div class="socialMedia">
+            <div class="email-copy-icon">
+                <i class="icon fa-solid fa-envelope"></i>
+                <span class="email-text">paletteflow.team@gmail.com</span>
+            </div>
+            <a href="https://facebook.com" target="_blank" class="icon">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" class="icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+
+    <a href="/"><img class="logoM" src="assets/PaletteFlow.png" /></a>
+
+    <!-- Hamburger Menu (for mobile) -->
+    <div class="hamburgerWrapper">
+        <div class="hamburgerIcon" onclick="toggleMenu()">
+            <i id="hamburgerIcon" class="fas fa-bars"></i>
+        </div>
+
+        <div id="hamburgerMenu" class="showMenu" style="display: none">
+            <div class="menuItem"><a href="/tool">เครื่องมือ</a></div>
+            <div class="menuItem"><a href="/about">เกี่ยวกับเรา</a></div>
+            <div class="contactSection">
+                <p>ติดต่อเรา</p>
+                <div class="socialMedia">
+                    <div class="email-copy-icon">
+                        <i class="icon fa-solid fa-envelope"></i>
+                        <span class="email-text">paletteflow.team@gmail.com</span>
+                    </div>
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f icon"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="border">
+        <div class="first"></div>
+    </div>
+
+    <section class="content-container">
+        <div class="text-container">
+            <div class="title">
+                <img id="aboutHeader" src="assets/about_header.png" />
+            </div>
+        </div>
+    </section>
+
+    <section class="about-members">
+        <div class="description">
+            <div class="profile-box-left">
+                <img id="profile" src="assets/profilebox.png" />
+                <div class="profile-text-container">
+                    <div class="profile-text-header">นางสาว พิชญ์สินี วชิรธนากร</div>
+                    <div class="profile-text">
+                        ปริญญาวิทยาศาสตรบัณฑิต
+                        <br class="mobile-br" />สาขาวิชาวิทยาการคอมพิวเตอร์<br class="mobile-br" />ประยุกต์ -
+                        มัลติมีเดีย<br />
+                        คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี<br />
+                        มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี<br />
+                        ในปีการศึกษา 2567
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-box-right">
+                <img id="profile" src="assets/profilebox.png" />
+                <div class="profile-text-container-right">
+                    <div class="profile-text-header">นางสาว สุภัสสรา มั่นสาคร</div>
+                    <div class="profile-text">
+                        ปริญญาวิทยาศาสตรบัณฑิต
+                        <br class="mobile-br" />สาขาวิชาวิทยาการคอมพิวเตอร์<br class="mobile-br" />ประยุกต์ -
+                        มัลติมีเดีย<br />
+                        คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี<br />
+                        มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี<br />
+                        ในปีการศึกษา 2567
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-box-left">
+                <img id="profile" src="assets/profilebox.png" />
+                <div class="profile-text-container">
+                    <div class="profile-text-header">นาย พสุธร ช่างสุพรรณ</div>
+                    <div class="profile-text">
+                        ปริญญาวิทยาศาสตรบัณฑิต
+                        <br class="mobile-br" />สาขาวิชาวิทยาการคอมพิวเตอร์<br class="mobile-br" />ประยุกต์ -
+                        มัลติมีเดีย<br />
+                        คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี<br />
+                        มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี<br />
+                        ในปีการศึกษา 2567
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-professor">
+        <div class="professor">
+            <div class="professor-header">อาจารย์ที่ปรึกษา</div>
+            <img id="professor" src="assets/profilebox.png" />
+            <div class="profile-text-container">
+                <div class="profile-text-header-professor">
+                    อาจารย์ ณัฐพงษ์ ประเสริฐสังข์
+                </div>
+                <div class="profile-text-container-middle">
+                    อาจารย์ประจำสาขาวิชา<br />
+                    คอมพิวเตอร์และเทคโนโลยีสารสนเทศ<br />
+                    มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const email = "paletteflow.team@gmail.com";
+
+            document.querySelectorAll(".email-copy-icon").forEach((iconWrapper) => {
+                const icon = iconWrapper.querySelector(".icon");
+                const emailText = iconWrapper.querySelector(".email-text");
+                let copied = false;
+
+                if (!icon || !emailText) return;
+
+                iconWrapper.addEventListener("mouseenter", () => {
+                    if (!copied) {
+                        icon.classList.remove("fa-envelope");
+                        icon.classList.add("fa-copy");
+                        emailText.textContent = email;
+                    }
+                });
+
+                iconWrapper.addEventListener("mouseleave", () => {
+                    copied = false;
+                    icon.classList.remove("fa-copy");
+                    icon.classList.add("fa-envelope");
+                    emailText.textContent = email;
+                });
+
+                iconWrapper.addEventListener("click", () => {
+                    navigator.clipboard.writeText(email).then(() => {
+                        copied = true;
+                        emailText.textContent = "คัดลอกแล้ว!";
+                        setTimeout(() => {
+                            emailText.textContent = email;
+                            copied = false;
+                        }, 1500);
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

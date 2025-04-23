@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style2.css">
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <body class="webMockupColor-60 webMockupColorText-60-2">
+        <div class="Navbar webMockupColor-10">
+            <ul>
+                <div class="Logo">
+                    <li><a href="#" class="webMockupColorText-30">LOGO</a></li>
+                </div>
+                <div class="menu">
+                    <li><a href="#" class="webMockupColorText-30">Home</a></li>
+                    <li><a href="#" class="webMockupColorText-30">News</a></li>
+                    <li><a href="#" class="webMockupColorText-30">About</a></li>    
+                </div>
+                <div class="cart">
+                    <li><a href="#" class="webMockupColorText-30"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="product">
+            <div class="grid-container">
+                <div class="item1">
+                    <div class="grid-container2">
+                        <div class="item1-1 webMockupColor-60-2">
+                            <i class="fa-solid fa-image webMockupColorText-30" aria-hidden="true"></i>
+                        </div>
+                        <div class="item1-2">
+                            <div class="pic-s webMockupColor-60-2">
+                                <i class="fa-solid fa-image webMockupColorText-30" aria-hidden="true"></i>
+                            </div>
+                            <div class="pic-s webMockupColor-60-2">
+                                <i class="fa-solid fa-image webMockupColorText-30" aria-hidden="true"></i>
+                            </div>
+                            <div class="pic-s webMockupColor-60-2">
+                                <i class="fa-solid fa-image webMockupColorText-30" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item2">
+                    <p>CLOTHES</p>
+                    <h1>Lorem Ipsum</h1>
+                    <p>Available : 10 in stock</p>
+                    <h1>$20</h1>
+                    <br />
+                    <div class="actions">
+                        <div class="counter">
+                            <button class="minus webMockupButtonColor-10" id="decrement-btn" type="button">-</button>
+                            <div id="counter-value">1</div>
+                            <button class="plus webMockupButtonColor-10" id="increment-btn" type="button">+</button>
+                        </div>
+                        <div class="add">
+                            <button type="button" class="webMockupButtonColor-10">Add in cart</button>
+                        </div>
+                    </div>
+
+                    <br />
+                    <br />
+                    
+                    <div class="star-rating">
+                        <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                        <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                        <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                        <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                        <i class="fa-solid fa-star gray webMockupColorText-10"></i>
+                        <span>5 Reviews</span>
+                    </div>                    
+                </div>
+            </div>
+
+            <div class="grid-container3">
+                <div class="L3">
+                    <div class="tab webMockupColorBorder-10">
+                        <button class="tablinks active webMockupColorText-10 webMockupColorBorder-10" onclick="openDetail(event, 'Desc')">Description </button>
+                        <button class="tablinks webMockupColorText-10 webMockupColorBorder-10" onclick="openDetail(event, 'Reviews')">Reviews (5)</button>
+                    </div>
+
+                    <div id="Desc" class="tabcontent" style="display: block;">
+                        <p style="font-weight: 600;">Description</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultricies ac massa non blandit. In hac habitasse platea dictumst. Proin ornare suscipit justo, et posuere magna dictum id. Nunc molestie nisi nec ex consectetur consequat. Quisque sit amet nulla quis diam tempus lobortis placerat quis nisl. Aliquam erat volutpat. Duis sagittis vitae tellus non placerat. Fusce ultricies, tellus vitae tincidunt tempor, ante nunc euismod velit, ac tempus leo ante eu enim. Aliquam quis sodales eros. Integer dapibus molestie risus, vitae finibus sapien. Sed tempus, neque nec varius fermentum, quam eros euismod augue, vestibulum tristique eros ipsum porta arcu.</p>
+                        <br />
+                        <ul>
+                            <li>Lorem ipsum</li>
+                            <li>Lorem ipsum</li>
+                            <li>Lorem ipsum</li>
+                            <li>Lorem ipsum</li>
+                        </ul>  
+                    </div>
+                      
+                    <div id="Reviews" class="tabcontent" style="display: none;">
+                        <p style="font-weight: 600;">Reviews (5)</p>
+
+                        <!-- Review Template (x5) -->
+                        <div class="comment-box webMockupColor-30">
+                            <div class="profile webMockupColorText-60-2">
+                                <i class="fa-solid fa-circle-user" style="font-size: 35px;"></i>
+                                <p>User1234</p>
+                            </div>
+                            <div class="star-rating" style="margin-bottom: 10px;">
+                                <span>Product quality :</span>
+                                <i class="fa-solid fa-star gray webMockupColorText-10"></i>
+                                <i class="fa-solid fa-star gray webMockupColorText-10"></i>
+                                <i class="fa-solid fa-star gray webMockupColorText-10"></i>
+                                <i class="fa-solid fa-star gray webMockupColorText-10"></i>
+                                <i class="fa-solid fa-star gray webMockupColorText-10"></i>
+                            </div>
+                            <form>
+                                <textarea placeholder="Share more thoughts on the product to help other buyers."></textarea>
+                            </form>
+                            <div class="button-set">
+                                <button class="submit webMockupButtonColor-10" value="Submit">Submit</button>
+                                <button class="cancel webMockupButtonColor-10" value="Cancel">Cancel</button>
+                            </div>
+                        </div>
+
+                        <!-- Additional reviews (copied structure) -->
+                        <div class="comment-box webMockupColor-30">
+                            <div class="profile webMockupColorText-60-2">
+                                <i class="fa-solid fa-circle-user" style="font-size: 35px;"></i>
+                                <p>User1234</p>
+                            </div>
+                            <div class="star-rating" style="margin-bottom: 10px;">
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star gray webMockupColorText-10"></i>
+                            </div>   
+                            <p>Lorem ipsum dolor sit amet...</p> 
+                        </div>
+
+                        <!-- Repeat this block 3 more times as in original -->
+                        <div class="comment-box webMockupColor-30">
+                            <div class="profile webMockupColorText-60-2">
+                                <i class="fa-solid fa-circle-user" style="font-size: 35px;"></i>
+                                <p>User1234</p>
+                            </div>
+                            <div class="star-rating" style="margin-bottom: 10px;">
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star gray webMockupColorText-10"></i>
+                            </div>   
+                            <p>Lorem ipsum dolor sit amet...</p> 
+                        </div>
+
+                        <div class="comment-box webMockupColor-30">
+                            <div class="profile webMockupColorText-60-2">
+                                <i class="fa-solid fa-circle-user" style="font-size: 35px;"></i>
+                                <p>User1234</p>
+                            </div>
+                            <div class="star-rating" style="margin-bottom: 10px;">
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star gray webMockupColorText-10"></i>
+                            </div>   
+                            <p>Lorem ipsum dolor sit amet...</p> 
+                        </div>
+
+                        <div class="comment-box webMockupColor-30">
+                            <div class="profile webMockupColorText-60-2">
+                                <i class="fa-solid fa-circle-user" style="font-size: 35px;"></i>
+                                <p>User1234</p>
+                            </div>
+                            <div class="star-rating" style="margin-bottom: 10px;">
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star gray webMockupColorText-10"></i>
+                            </div>   
+                            <p>Lorem ipsum dolor sit amet...</p> 
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="R3">
+                    <h3>Additional Information</h3>
+                    <p style="font-weight: 600;">Dimentions</p>
+                    <p>30 x 30 x 1 cm</p>
+                    <p style="font-weight: 600;">Weight</p>
+                    <p>0.35kg</p>
+                </div>
+            </div>
+
+            <div class="more">
+                <div class="head">
+                    <h1>You may also like</h1>
+                    <a href="#" class="webMockupColorText-10">More ></a>                
+                </div>
+                <div class="row">
+                    <!-- Repeat 5 columns -->
+                    <div class="column">
+                        <div class="card webMockupColor-30">
+                            <div class="pic webMockupColor-60-2">
+                                <i class="fa-solid fa-image webMockupColorText-30" aria-hidden="true"></i>
+                            </div>
+                            <div class="n-p">
+                                <p style="text-align: left; font-weight: bold;">Name</p>
+                                <p style="text-align: right;">$10</p>                        
+                            </div>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star gray webMockupColorText-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card webMockupColor-30">
+                            <div class="pic webMockupColor-60-2">
+                                <i class="fa-solid fa-image webMockupColorText-30" aria-hidden="true"></i>
+                            </div>
+                            <div class="n-p">
+                                <p style="text-align: left; font-weight: bold;">Name</p>
+                                <p style="text-align: right;">$10</p>                        
+                            </div>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star gray webMockupColorText-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card webMockupColor-30">
+                            <div class="pic webMockupColor-60-2">
+                                <i class="fa-solid fa-image webMockupColorText-30" aria-hidden="true"></i>
+                            </div>
+                            <div class="n-p">
+                                <p style="text-align: left; font-weight: bold;">Name</p>
+                                <p style="text-align: right;">$10</p>                        
+                            </div>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star gray webMockupColorText-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card webMockupColor-30">
+                            <div class="pic webMockupColor-60-2">
+                                <i class="fa-solid fa-image webMockupColorText-30" aria-hidden="true"></i>
+                            </div>
+                            <div class="n-p">
+                                <p style="text-align: left; font-weight: bold;">Name</p>
+                                <p style="text-align: right;">$10</p>                        
+                            </div>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star gray webMockupColorText-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card webMockupColor-30">
+                            <div class="pic webMockupColor-60-2">
+                                <i class="fa-solid fa-image webMockupColorText-30" aria-hidden="true"></i>
+                            </div>
+                            <div class="n-p">
+                                <p style="text-align: left; font-weight: bold;">Name</p>
+                                <p style="text-align: right;">$10</p>                        
+                            </div>
+                            <div class="star-rating">
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star yellow webMockupColorText-60-2"></i>
+                                <i class="fa-solid fa-star gray webMockupColorText-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="/script.js"></script>
+        <script src="counter.js"></script>
+        <script src="tab.js"></script>
+    </body>
+</html>

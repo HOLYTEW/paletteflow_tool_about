@@ -1,0 +1,353 @@
+.navbar {
+    top: 15px;
+    position: fixed;
+    left: 0;
+    width: 100vw;
+    background-color: transparent;
+    padding: 0.5vw 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-image: url('assets/navbarBG.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.first {
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    border: 15px solid black;
+    z-index: 100;
+    overflow: hidden;
+    border-radius: 35px;
+    transform: none;
+    background-color: transparent;
+}
+
+.border {
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    border: 15px solid black;
+    z-index: 100;
+    overflow: hidden;
+    transform: none;
+    background-color: transparent;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 10000;
+}
+
+.navItem {
+    margin: 0 10px;
+    justify-content: space-around;
+    z-index: 3000;
+
+}
+
+.i {
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'Prompt', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    transition: color 0.3s ease;
+    padding: 16px 32px;
+    z-index: 2000;
+}
+
+.navItem a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    transition: color 0.2s ease;
+    /* การเปลี่ยนแปลงสี */
+}
+
+.logo {
+    width: auto;
+}
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Space between logo, nav items, and social icons */
+    gap: 20px;
+}
+
+a.icon {
+    width: 46px;
+    height: 46px;
+    padding: 10px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+.email-copy-icon {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  .email-copy-icon .icon {
+    width: 46px;
+    height: 46px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .email-copy-icon:hover .icon {
+    color: black;
+    background-color: white;
+  }
+
+  .icon {
+    font-size: 24px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+  
+  .email-text {
+    visibility: hidden;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    color: #333333;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 1rem;
+    white-space: nowrap;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 10;
+  }
+  
+  .email-copy-icon:hover .email-text {
+    visibility: visible;
+  }
+  
+
+a.icon i {
+    font-size: 24px;
+}
+
+.icon:hover {
+    color: black;
+    background-color: white;
+}
+
+.hamburgerWrapper {
+    display: none;
+}
+
+.small {
+    display: block;
+}
+
+.logoM {
+    display: none;
+}
+
+/* Hide menu icon on desktop */
+@media (max-width: 1599px) {
+    .logoM {
+        display: flex;
+        position: fixed;
+        width: 17vh;
+        top: 5vh;         
+        left: 5vw;        
+        z-index: 1000;
+    }
+
+    .hamburgerWrapper {
+        position: fixed;
+        top: 5vh;
+        right: 19px;
+        z-index: 2000;
+        width: 60px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hamburgerIcon {
+        color: white;
+        font-size: 1.5rem;
+        z-index: 2;
+        cursor: pointer;
+        padding: 2rem;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-color: black;
+    }
+
+    .hamburgerWrapper {
+        display: block;
+        position: fixed;
+    }
+
+    .small {
+        display: none;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .showMenu {
+        display: flex;
+        position: fixed;
+        top: 15vh;
+        right: 0;
+        /* width: 25vh; */
+        background-color: black;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.3rem 2rem;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+        z-index: 1500;
+        animation: slideIn 0.3s ease forwards;
+    }
+
+    .showMenu a {
+        text-decoration: none;
+        color: white; /* Ensure visibility on black bg */
+        font-weight: 300;
+      }
+      
+      .showMenu a:hover {
+        text-decoration: none;
+        color: #ccc; /* Optional hover effect */
+      }
+
+      .email-copy-icon .icon {
+        color: black;
+        background-color: white;
+      }
+    
+      .email-copy-icon:hover .icon {
+        color: white;
+        background-color: black;
+      }
+    
+      .email-text {
+        top: 155%;
+      }
+
+    @keyframes slideIn {
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    .menuItem {
+        font-size: 1.2rem;
+        padding: 1.5rem 0;
+        border-bottom: 1px solid #444;
+        width: 100%;
+    }
+
+    .contactSection {
+        margin-top: auto;
+        padding-top: 1.5rem;
+        width: 100%;
+    }
+
+    .contactSection p {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 300;
+    }
+
+    .contactSection .socialMedia .icon {
+        width: 46px;
+        height: 46px;
+        padding: 10px;
+        font-size: 24px;
+        color: black;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 15px;
+        cursor: pointer;
+        transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .contactSection .socialMedia .icon:hover {
+        color: white;
+        background-color: black;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .logoM {
+        display: flex;
+        position: fixed;
+        width: 17vh;
+        top: 6vh;         
+        left: 10vw !important;        
+        z-index: 1000;
+    }
+}
