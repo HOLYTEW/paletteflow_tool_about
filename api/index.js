@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+
 const app = express();
 
 // Serve static files from the "public" directory
@@ -22,6 +23,4 @@ app.use((req, res) => {
     res.status(404).send('Page not found');
 });
 
-// ⛔ DO NOT app.listen()
-// ✅ Instead, export the app
 module.exports = app;
