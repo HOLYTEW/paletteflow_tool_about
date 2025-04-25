@@ -369,7 +369,8 @@ const thirdImagePaths = [
     "assets/3_color_image/Art-2-3.png",
     "assets/3_color_image/Art-3-3.png",
     "assets/3_color_image/Art-4-3.png",
-    "assets/3_color_image/Art-5-3.png",    
+    "assets/3_color_image/Art-5-3.png",
+    "assets/3_color_image/Art-6-3.png",    
 ];
 
 const fourthImagePaths = [
@@ -377,7 +378,8 @@ const fourthImagePaths = [
     "assets/4_color_image/Art-2-4-60.png",
     "assets/4_color_image/Art-3-4-60.png",
     "assets/4_color_image/Art-4-4-60.png",
-    "assets/4_color_image/Art-5-4-60.png"
+    "assets/4_color_image/Art-5-4-60.png",
+    "assets/4_color_image/Art-6-4-60.png",
 ];
 
 const fifthImagePaths = [
@@ -386,6 +388,7 @@ const fifthImagePaths = [
     "assets/5_color_image/Art-3-5.png",
     "assets/5_color_image/Art-4-5.png",
     "assets/5_color_image/Art-5-5.png",
+    "assets/5_color_image/Art-6-5.png",
 ];
 
 const thirdInteriorPath = [
