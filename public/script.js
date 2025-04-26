@@ -400,6 +400,9 @@ const thirdInteriorPath = [
 ];
 
 const fourthInteriorPath = [
+    "assets/4_color_interior/Interior-1-4-60.png",
+    "assets/4_color_interior/Interior-2-4-60.png",
+    "assets/4_color_interior/Interior-3-4-60.png",
     "assets/4_color_interior/Interior-4-4-60.png",
     "assets/4_color_interior/Interior-5-4-60.png",
 ];
@@ -413,18 +416,24 @@ const fifthInteriorPath = [
 ];
 
 const thirdApplicationPath = [
+    "assets/3_color_application/App-1-3.png",
+    "assets/3_color_application/App-2-3.png",
     "assets/3_color_application/App-3-3.png",
     "assets/3_color_application/App-4-3.png",
     "assets/3_color_application/App-5-3.png",
 ];
 
 const fourthApplicationPath = [
+    "assets/4_color_application/App-1-4-60.png",
+    "assets/4_color_application/App-2-4-60.png",
     "assets/4_color_application/App-3-4-60.png",
     "assets/4_color_application/App-4-4-60.png",
     "assets/4_color_application/App-5-4-60.png",
 ];
 
 const fifthApplicationPath = [
+    "assets/5_color_application/App-1-5.png",
+    "assets/5_color_application/App-2-5.png",
     "assets/5_color_application/App-3-5.png",
     "assets/5_color_application/App-4-5.png",
     "assets/5_color_application/App-5-5.png",
