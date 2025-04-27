@@ -68,6 +68,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* Fixed */
 .navItem a {
     text-decoration: none;
     color: white;
