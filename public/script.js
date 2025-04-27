@@ -1191,7 +1191,7 @@ function splitColorBar(colorBarId) {
     if (colorBarId === 'colorBar10') return;
 
     if (colorBar.querySelectorAll('.split-line').length >= 1) {
-        alert("This color bar is already split.");
+        showCustomAlert('assets/60_split_alert.png');
         return;
     }
 
