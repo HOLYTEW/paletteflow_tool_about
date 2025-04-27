@@ -1101,7 +1101,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
                 
                     } else {
-                        alert("Please select 3, 4, or 5 colors to generate a website preview.");
+                        showCustomAlert('assets/generate_alert.png');
                     }
     
                 } else if (selectedFilter === 'third-image-filter') {
@@ -1125,7 +1125,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         });
                         loadFourthImage();
                     } else {
-                        alert("Please select either 3 or 5 colors before generating an image.");
+                        showCustomAlert('assets/generate_alert.png');
                     }
     
                 } else if (selectedFilter === 'funiture-filter') {
@@ -1149,7 +1149,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         });
                         loadFourthInterior();
                     } else {
-                        alert("Please select either 3 or 5 colors before generating an Interior Image.");
+                        showCustomAlert('assets/generate_alert.png');
                     }
     
                 } else if (selectedFilter === 'application-filter') {
@@ -1173,13 +1173,13 @@ document.addEventListener('DOMContentLoaded', function() {
                         });
                         loadFourthApplication();
                     } else {
-                        alert("Please select either 3 or 5 colors before generating an Application mockup.");
+                        showCustomAlert('assets/generate_alert.png');
                     }
                 }
     
             }, 1000); // Delay
         } else {
-            alert("Please select a filter before starting!");
+            showCustomAlert('assets/filter_alert.png');
         }
     });
 });
@@ -1290,6 +1290,26 @@ function removeColor(colorBarId) {
     colorBar.removeAttribute('data-original-color');
 }
 
+function showCustomAlert(imagePath) {
+    const overlay = document.getElementById('customAlertOverlay');
+    const alertImage = document.getElementById('customAlertImage');
+
+    alertImage.src = imagePath;
+    overlay.classList.remove('hidden');
+}
+
+function hideCustomAlert() {
+    const overlay = document.getElementById('customAlertOverlay');
+    const alertImage = document.getElementById('customAlertImage');
+
+    overlay.classList.add('hidden');
+    alertImage.src = "";
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    showCustomAlert('assets/instruction_alert.png'); // <-- Replace with your instruction image path
+});
+
 function toggleMenu() {
     const menu = document.getElementById("hamburgerMenu");
     const icon = document.getElementById("hamburgerIcon");
@@ -1342,3 +1362,4 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
+
