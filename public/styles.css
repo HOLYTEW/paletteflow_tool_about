@@ -569,7 +569,13 @@ input[type="color"] {
 
 #profile {
     width: 20.76vw;
-    height: auto;
+    height: 26.27vw;
+    border: 2px solid #000000;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 3.13vw;
+    overflow: hidden;
+    box-shadow: 0px 1.56vw 0px rgba(0, 0, 0, 0.1);
 }
 
 .profile-text-container {
@@ -638,7 +644,13 @@ input[type="color"] {
 
 #professor {
     width: 20.76vw;
-    height: auto;
+    height: 26.27vw;
+    border: 2px solid #000000;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 3.13vw;
+    overflow: hidden;
+    box-shadow: 0px 1.56vw 0px rgba(0, 0, 0, 0.1);
 }
 
 .description {
@@ -1106,7 +1118,8 @@ input[type="color"] {
 
     #profile {
         width: 96px;
-        height: auto;
+        height: 121px;
+        box-shadow: none;
     }
 
     .profile-text-header {
@@ -1157,7 +1170,8 @@ input[type="color"] {
 
     #professor {
         width: 96px;
-        height: auto;
+        height: 121px;
+        box-shadow: none;
     }
 
 }
