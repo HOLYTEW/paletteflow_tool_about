@@ -10,8 +10,67 @@ body {
 }
 
 .Navbar {
-    height: 10px;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 2vw;
+    background-color: inherit;
+    flex-wrap: wrap; /* responsive wrap */
+  }
+  
+  .Logo a {
+    font-size: 2.5vw;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+  }
+  
+  .menu a {
+    font-size: 1.5vw;
+    color: black;
+    text-decoration: none;
+    padding: 0.5vw 1vw;
+    transition: all 0.3s ease;
+  }
+  
+  .menu a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 0.5vw;
+  }
+  
+  .LogIn button {
+    font-size: 1.5vw;
+    padding: 0.6vw 2vw;
+    border: 0.15vw solid black;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .LogIn button:hover {
+    background-color: black;
+    color: white;
+  }
+
+h1, h2, h3 {
+    font-size: 2.5vw;
+    line-height: 1.2;
+    margin-bottom: 1vw;
+  }
+  
+  p {
+    font-size: 1.25vw;
+    line-height: 1.6;
+    margin-bottom: 1.5vw;
+  }
+  
 
 .Navbar ul {
     list-style-type: none;
@@ -24,13 +83,13 @@ body {
 }
 
 .Navbar .Logo li a{
-    margin-right: 20px;
+    margin-right: 2.55vw;
     text-decoration: none;
     color: black; /*10%*/
-    font-size: 20px;
-    margin-left: 20px; 
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 2.55vw;
+    margin-left: 2.55vw; 
+    margin-top: 2.55vw;
+    margin-bottom: 2.55vw;
 }
 
 .Navbar .menu {
@@ -40,17 +99,17 @@ body {
 }
 
 .Navbar .menu li a {
-    margin: 0 10px; 
+    margin: 0 1.28vw; 
     display: block;
     color: black; /*10%*/
     text-align: center;
-    padding: 14px 16px;
+    padding: 1.79vw 2.04vw;
     text-decoration: none;
 }
 
 .Navbar .menu li a:hover {
     color: white; /*60%*/
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.13vw 0.77vw rgba(0, 0, 0, 0.2);
 }
 
 .grid-container1 {
@@ -66,7 +125,7 @@ body {
 
 .grid-item1-2 {
     background-color: white; /*60%*/
-    border-radius: 0 0 0 20px;
+    border-radius: 0 0 0 2.55vw;
     text-align: center;
     height: 100%;
 }
@@ -74,11 +133,11 @@ body {
 button{
     background-color: transparent;
     color: black; /*10%*/
-    border: 2px solid black; /*10%*/
-    padding: 16px 32px;
+    border: 0.26vw solid black; /*10%*/
+    padding: 2.04vw 4.09vw;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 2.04vw;
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -115,24 +174,24 @@ i {
     background-color: white; /*60%*/
     text-align: center;
     height: auto;
-    padding: 25px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 3.19vw;
+    box-shadow: 0 0.64vw 1.28vw rgba(0, 0, 0, 0.5);
 
 }
 
 .Pola-pic {
     background-color: gray; /*30%*/
-    height: 250px;
-    margin-bottom: 25px;
+    height: 31.93vw;
+    margin-bottom: 3.19vw;
 }
 
 .Polaroid button {
     background-color: transparent;
     color: gray; /*30%*/
-    border: 2px solid gray; /*30%*/
-    padding: 13px 32px;
+    border: 0.26vw solid gray; /*30%*/
+    padding: 1.66vw 4.09vw;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 2.04vw;
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -151,13 +210,13 @@ i {
 
 .grid-item2-1 {
     background-color: gray; /*30%*/
-    border-radius: 20px 0 20px 0;
+    border-radius: 2.55vw 0 2.55vw 0;
     text-align: start;
 }
 
 .grid-item2-2 {
     background-color: white; /*60%*/
-    border-radius: 20px 0 20px 0;
+    border-radius: 2.55vw 0 2.55vw 0;
     text-align: start;
 }
 
@@ -177,7 +236,7 @@ body {
 }
 
 .Navbar {
-    height: 10px;
+    height: 1.28vw;
 }
 
 .Navbar ul {
@@ -191,13 +250,13 @@ body {
 }
 
 .Navbar .Logo li a{
-    margin-right: 20px;
+    margin-right: 2.55vw;
     text-decoration: none;
     color: black; /*10%*/
-    font-size: 20px;
-    margin-left: 20px; 
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 2.55vw;
+    margin-left: 2.55vw; 
+    margin-top: 2.55vw;
+    margin-bottom: 2.55vw;
 }
 
 .Navbar .menu {
@@ -207,17 +266,17 @@ body {
 }
 
 .Navbar .menu li a {
-    margin: 0 10px; 
+    margin: 0 1.28vw; 
     display: block;
     color: black; /*10%*/
     text-align: center;
-    padding: 14px 16px;
+    padding: 1.79vw 2.04vw;
     text-decoration: none;
 }
 
 .Navbar .menu li a:hover {
     color: white; /*60%*/
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.13vw 0.77vw rgba(0, 0, 0, 0.2);
 }
 
 .grid-container1 {
@@ -233,7 +292,7 @@ body {
 
 .grid-item1-2 {
     background-color: white; /*60%*/
-    border-radius: 0 0 0 20px;
+    border-radius: 0 0 0 2.55vw;
     text-align: center;
     height: 100%;
 }
@@ -241,11 +300,11 @@ body {
 button{
     background-color: transparent;
     color: black; /*10%*/
-    border: 2px solid black; /*10%*/
-    padding: 16px 32px;
+    border: 0.26vw solid black; /*10%*/
+    padding: 2.04vw 4.09vw;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 2.04vw;
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -282,24 +341,24 @@ i {
     background-color: white; /*60%*/
     text-align: center;
     height: auto;
-    padding: 5px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 0.64vw;
+    box-shadow: 0 0.64vw 1.28vw rgba(0, 0, 0, 0.5);
 
 }
 
 .Pola-pic {
     background-color: gray; /*30%*/
-    height: 250px;
-    margin-bottom: 25px;
+    height: 31.93vw;
+    margin-bottom: 3.19vw;
 }
 
 .Polaroid button {
     background-color: transparent;
     color: gray; /*30%*/
-    border: 2px solid gray; /*30%*/
-    padding: 13px 32px;
+    border: 0.26vw solid gray; /*30%*/
+    padding: 1.66vw 4.09vw;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 2.04vw;
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -318,13 +377,13 @@ i {
 
 .grid-item2-1 {
     background-color: gray; /*30%*/
-    border-radius: 20px 0 20px 0;
+    border-radius: 2.55vw 0 2.55vw 0;
     text-align: start;
 }
 
 .grid-item2-2 {
     background-color: white; /*60%*/
-    border-radius: 20px 0 20px 0;
+    border-radius: 2.55vw 0 2.55vw 0;
     text-align: start;
 }
 
