@@ -9,13 +9,51 @@ button{
     font-family: "Prompt", sans-serif;
 }
 
+p {
+    font-size: 1.25vw;
+    line-height: 1.6;
+    margin: 0.5vw 0;
+}
+
+h1 {
+    font-size: 2.6vw;
+    font-weight: 600;
+    margin: 1vw 0;
+}
+
+h2 {
+    font-size: 2.2vw;
+    font-weight: 600;
+    margin: 1vw 0;
+}
+
+h3 {
+    font-size: 1.8vw;
+    font-weight: 500;
+    margin: 1vw 0;
+}
+
+ul, li {
+    font-size: 1.2vw;
+    margin-left: 2vw;
+}
+
+button {
+    font-size: 1.25vw;
+}
+
+textarea {
+    font-size: 1.1vw;
+    line-height: 1.4;
+}
+
 /* Navbar */
 
 .Navbar {
     margin: 0;
     padding: 0 5%;
     background-color: #577c8e; /*10%*/
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.1277vw 0.7663vw rgba(0, 0, 0, 0.2);
 }
 
 .Navbar ul {
@@ -30,12 +68,12 @@ button{
 
 .Navbar .Logo li a{
     color: #f4efeb; /*30%*/
-    margin-right: 20px;
+    margin-right: 2.5543vw;
     text-decoration: none;
-    font-size: 20px;
-    margin-left: 20px; 
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 2.5543vw;
+    margin-left: 2.5543vw; 
+    margin-top: 2.5543vw;
+    margin-bottom: 2.5543vw;
 }
 
 .Navbar .menu {
@@ -46,17 +84,12 @@ button{
 
 .Navbar .menu li a {
     color: #f4efeb; /*30%*/
-    margin: 0 10px; 
+    margin: 0 1.2771vw; 
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1.788vw 2.0434vw;
     text-decoration: none;
 }
-
-/* .Navbar .menu li a:hover {
-    color: #577c8e; 10%
-    background-color: #f4efeb; 30%
-} */
 
 .Navbar .cart {
     margin-left: auto; 
@@ -65,7 +98,7 @@ button{
 .Navbar .cart li a {
     color: #f4efeb;  /*30%*/
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 1.788vw 2.0434vw;
 }
 
 /* Product */
@@ -92,32 +125,32 @@ button{
 
 .item1-1 i {
     color: #f4efeb;  /*30%*/
-    font-size: 24px; 
+    font-size: 3.0651vw; 
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    height: 400px;
+    height: 51.0856vw;
 }
 
 .pic-s {
-    margin-bottom: 15px; 
+    margin-bottom: 1.9157vw; 
     background-color: #2f4157; /*60% (2)*/
 }
 
 .pic-s i {
     color: #f4efeb; /*30%*/
-    font-size: 24px; 
+    font-size: 3.0651vw; 
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    height: 100px;
+    height: 12.7714vw;
 }
 
 /*Counter*/
 .actions {
     display: flex; 
     align-items: center;
-    gap: 40px;
+    gap: 5.1086vw;
 }
 
 
@@ -127,49 +160,49 @@ button{
 }
 
 .counter button{
-    height: 42px;
-    width: 50px;
-    font-size: 20px;
+    height: 5.364vw;
+    width: 6.3857vw;
+    font-size: 2.5543vw;
     background-color: #577c8e; /*10%*/
-    border: 1px solid #577c8e; /*10%*/
+    border: 0.1277vw solid #577c8e; /*10%*/
     color: #f4efeb; /*30%*/
-    font-size: 24px;
+    font-size: 3.0651vw;
     cursor: pointer;
     transition: 0.4s;
 }
 
 .counter button:hover{
     background-color: #f4efeb; /*30%*/
-    border: 1px solid #f4efeb; /*30%*/
+    border: 0.1277vw solid #f4efeb; /*30%*/
     color: #577c8e; /*10%*/
 }
 
 .add button{
-    height: 42px;
-    width: 80px;
-    padding: 0px;
-    font-size: 20px;
+    height: 5.364vw;
+    width: 10.2171vw;
+    padding: 0.0vw;
+    font-size: 2.5543vw;
     background-color: #577c8e; /*10%*/
-    border: 1px solid #577c8e; /*10%*/
+    border: 0.1277vw solid #577c8e; /*10%*/
     color: #f4efeb; /*30%*/
-    font-size: 13px;
+    font-size: 1.6603vw;
     cursor: pointer;
     transition: 0.4s;
 }
 
 .add button:hover{
     background-color: #f4efeb; /*30%*/
-    border: 1px solid #f4efeb; /*30%*/
+    border: 0.1277vw solid #f4efeb; /*30%*/
     color: #577c8e; /*10%*/
 }
 
 
 #counter-value {
-    height: 40px;
-    width: 50px;
+    height: 5.1086vw;
+    width: 6.3857vw;
     background-color: #ffffff;
-    border: 1px solid #f4efeb; /*30%*/
-    font-size: 20px;
+    border: 0.1277vw solid #f4efeb; /*30%*/
+    font-size: 2.5543vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,8 +213,8 @@ button{
 .star-rating {
     display: flex;
     align-items: center;
-    font-size: 14px;
-    gap: 6px;
+    font-size: 1.788vw;
+    gap: 0.7663vw;
 }
 
 .star-rating .yellow {
@@ -208,33 +241,33 @@ button{
     /* Style the tab */
 .tab {
     overflow: hidden;
-    border-bottom: 1px solid #577c8e; /*10%*/
+    border-bottom: 0.1277vw solid #577c8e; /*10%*/
     background-color: transparent;
   }
   
 .tab button {
     background-color: transparent;
-    border-bottom: 1px solid #577c8e; /*10%*/
+    border-bottom: 0.1277vw solid #577c8e; /*10%*/
     color: #577c8e; /*10%*/
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 1.788vw 2.0434vw;
     transition: 0.3s;
-    font-size: 20px;
+    font-size: 2.5543vw;
 }
 
 .tab button.active {
     background-color: transparent;
-    border-bottom: 1px solid #2f4157; /*60% (2)*/
+    border-bottom: 0.1277vw solid #2f4157; /*60% (2)*/
     font-weight: 600;
     color: #2f4157; /*60% (2)*/
 }
 
 .tabcontent {
     display: none;
-    padding: 12px 0;
+    padding: 1.5326vw 0;
     -webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1s;
 }
@@ -259,40 +292,40 @@ button{
 .profile {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 1.5326vw;
     color: #2f4157; /*60% (2)*/
 }
 
 .profile p{
-    font-size: 18px;
+    font-size: 2.2989vw;
     font-weight: 600;
 }
 
 .comment-box textarea{
     width: 100%;
-    height: 80px;
-    padding: 12px 20px;
+    height: 10.2171vw;
+    padding: 1.5326vw 2.5543vw;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 0.1277vw solid #ccc;
     background-color: #dadee0;
     resize: none;
 }
 
 .button-set {
     text-align: right;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 1.2771vw;
+    margin-bottom: 1.9157vw;
 }
 
 .submit, 
 .cancel {
-    height: 42px;
-    padding: 0 40px;
-    font-size: 20px;
+    height: 5.364vw;
+    padding: 0 5.1086vw;
+    font-size: 2.5543vw;
     background-color: #577c8e; /*10%*/
-    border: 1px solid #577c8e; /*10%*/
+    border: 0.1277vw solid #577c8e; /*10%*/
     color: #f4efeb; /*30%*/
-    font-size: 16px;
+    font-size: 2.0434vw;
     cursor: pointer;
     transition: 0.4s;
 }
@@ -300,7 +333,7 @@ button{
 .submit:hover, 
 .cancel:hover {
     background-color: #f4efeb; /*30%*/
-    border: 1px solid #f4efeb; /*30%*/
+    border: 0.1277vw solid #f4efeb; /*30%*/
     color: #577c8e; /*10%*/
 }
 
@@ -322,7 +355,7 @@ button{
 }
 
 .head a {
-    margin-right: 35px;
+    margin-right: 4.47vw;
     text-decoration: none;
     color: #577c8e; /*10%*/
 }
@@ -330,7 +363,7 @@ button{
 .column {
     float: left;
     width: 16%;
-    padding: 0 10px;
+    padding: 0 1.2771vw;
   }
   
   .row {
@@ -338,7 +371,7 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
-    gap: 10px;
+    gap: 1.2771vw;
 }
   
   .row:after {
@@ -349,8 +382,8 @@ button{
 
   
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 10px;
+    box-shadow: 0 0.5109vw 1.0217vw 0 rgba(0, 0, 0, 0.2);
+    padding: 1.2771vw;
     background-color: #f4efeb; /*30%*/
   }
 
@@ -359,12 +392,12 @@ button{
   }
 
   .card .pic i{
-    font-size: 24px; 
+    font-size: 3.0651vw; 
     display: flex; 
     justify-content: center; 
     align-items: center; 
     color: #f4efeb; /*30%*/
-    height: 130px;
+    height: 16.6028vw;
   }
 
   .card .n-p{
