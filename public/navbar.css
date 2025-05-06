@@ -200,7 +200,7 @@ a.icon i {
 }
 
 /* Hide menu icon on desktop */
-@media (max-width: 1599px) {
+@media (max-width: 1500px) {
     .logoM {
         display: flex;
         position: fixed;
@@ -227,7 +227,7 @@ a.icon i {
         font-size: 1.5rem;
         z-index: 2;
         cursor: pointer;
-        padding: 2rem;
+        padding: 1.5rem;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
         background-color: black;
