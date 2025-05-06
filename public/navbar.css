@@ -253,7 +253,6 @@ a.icon i {
         position: fixed;
         top: 15vh;
         right: 0;
-        /* width: 25vh; */
         background-color: black;
         flex-direction: column;
         align-items: flex-start;
@@ -351,4 +350,29 @@ a.icon i {
         left: 10vw !important;        
         z-index: 1000;
     }
+
+    .showMenu {
+        width: 65vw;
+        padding: 4vw 5vw;
+        border-top-left-radius: 6vw;
+        border-bottom-left-radius: 6vw;
+      }
+      
+      .menuItem {
+        font-size: 3.5vw;
+        padding: 3vw 0;
+      }
+      
+      .contactSection p {
+        font-size: 3.2vw;
+        margin-bottom: 2vw;
+      }
+      
+      .contactSection .socialMedia .icon {
+        width: 8vw;
+        height: 8vw;
+        font-size: 4vw;
+        padding: 2vw;
+        margin-left: 2vw;
+      }
 }
