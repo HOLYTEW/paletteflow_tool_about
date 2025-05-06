@@ -352,27 +352,55 @@ a.icon i {
     }
 
     .showMenu {
-        width: 45vw;
-        padding: 2vw 3vw;
-        border-top-left-radius: 4vw;
-        border-bottom-left-radius: 4vw;
-      }
+        display: flex;
+        position: fixed;
+        top: 15vh;
+        right: 0;
+        background-color: black;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.3rem 2rem;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+        z-index: 1500;
+        animation: slideIn 0.3s ease forwards;
     
-      .menuItem {
-        font-size: 2.4vw;
-        padding: 1.5vw 0;
-      }
+        transform: scale(0.5); /* 50% smaller */
+        transform-origin: top right;
+    }
     
-      .contactSection p {
-        font-size: 2.2vw;
-        margin-bottom: 1.5vw;
-      }
+    .menuItem {
+        font-size: 0.9rem;         /* smaller text */
+        padding: 1rem 0;           /* reduced vertical padding */
+        border-bottom: 1px solid #444;
+        width: 100%;
+    }
     
-      .contactSection .socialMedia .icon {
-        width: 6vw;
-        height: 6vw;
-        font-size: 3vw;
-        padding: 1.2vw;
-        margin-left: 1.5vw;
-      }
+    .showMenu a {
+        text-decoration: none;
+        color: white;
+        font-weight: 300;
+        font-size: 0.9rem;         /* smaller link text */
+        padding: 0.5rem 0;
+    }
+    
+    .contactSection {
+        margin-top: auto;
+        padding-top: 1rem;
+        width: 100%;
+    }
+    
+    .contactSection p {
+        font-size: 0.9rem;         /* smaller "ติดต่อเรา" */
+        margin-bottom: 0.8rem;
+    }
+    
+    .contactSection .socialMedia .icon {
+        width: 32px;
+        height: 32px;
+        padding: 6px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    
 }
