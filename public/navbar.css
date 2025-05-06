@@ -205,7 +205,8 @@ a.icon i {
         display: flex;
         position: fixed;
         width: 17vh;
-        margin: 5vh;
+        top: 5vh;
+        left: 5vh;
         z-index: 1000;
     }
 
