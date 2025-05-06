@@ -124,7 +124,6 @@ a.icon {
     display: flex;
     align-items: center;
     position: relative;
-    margin-left: 15px;
     cursor: pointer;
   }
   
