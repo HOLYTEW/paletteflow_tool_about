@@ -213,7 +213,7 @@ a.icon i {
     .hamburgerWrapper {
         position: fixed;
         top: 5vh;
-        right: 19px;
+        right: 13px;
         z-index: 2000;
         width: 60px;
         height: 120px;
@@ -349,58 +349,6 @@ a.icon i {
         top: 6vh;         
         left: 10vw !important;        
         z-index: 1000;
-    }
-
-    .showMenu {
-        display: flex;
-        position: fixed;
-        top: 15vh;
-        right: 0;
-        background-color: black;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 1.3rem 2rem;
-        border-top-left-radius: 40px;
-        border-bottom-left-radius: 40px;
-        z-index: 1500;
-        animation: slideIn 0.3s ease forwards;
-    
-        transform: scale(0.5); /* 50% smaller */
-        transform-origin: top right;
-    }
-    
-    .menuItem {
-        font-size: 0.9rem;         /* smaller text */
-        padding: 1rem 0;           /* reduced vertical padding */
-        border-bottom: 1px solid #444;
-        width: 100%;
-    }
-    
-    .showMenu a {
-        text-decoration: none;
-        color: white;
-        font-weight: 300;
-        font-size: 0.9rem;         /* smaller link text */
-        padding: 0.5rem 0;
-    }
-    
-    .contactSection {
-        margin-top: auto;
-        padding-top: 1rem;
-        width: 100%;
-    }
-    
-    .contactSection p {
-        font-size: 0.9rem;         /* smaller "ติดต่อเรา" */
-        margin-bottom: 0.8rem;
-    }
-    
-    .contactSection .socialMedia .icon {
-        width: 32px;
-        height: 32px;
-        padding: 6px;
-        font-size: 16px;
-        margin-left: 10px;
     }
     
 }
